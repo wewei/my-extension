@@ -9,6 +9,13 @@
         "48": "icons/nasapod48x48.png",
         "128": "icons/nasapod128x128.png"
     },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "scripts/worker.js"
+    },
     "action": {
         "default_popup": "popup/popup.html"
     }
